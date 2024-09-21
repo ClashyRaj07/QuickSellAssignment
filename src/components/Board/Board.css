@@ -1,0 +1,141 @@
+.controls {
+   margin: 1rem;
+    padding:1rem;
+   
+    
+  }
+
+  .controls .dropdown-container .dropdown-toggle{
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .controls .dropdown-menu{
+    background-color: #f4f5f9;
+    width: 10rem;
+    align-items: center;
+  }
+  
+  .board {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f4f5f9;
+    min-height: 90vh;
+  }
+  
+  .board-column {
+    width: 30%;
+   
+    padding: 10px;
+    border-radius: 8px;
+  }
+  .board-column .board-header{
+    display: flex; 
+    margin-bottom: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .board-column .board-header div:first-child{
+    display: flex; 
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.25rem;
+    margin: 0;
+    padding: 0;
+  } 
+  .board-column .board-header div:first-child img{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .board-column .board-header .board-header_ticket_count{
+    color: #888;
+  }
+  .board-column .board-header div:last-child{
+    display: flex; 
+    gap: 1rem;
+  }
+
+  .board-column .board-header div:last-child img{
+    cursor: pointer;
+  }
+  .board-column .board-header h2 {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .board-column .board-header img {
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+  }
+/*   
+  .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header .task-id {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .card-body {
+    margin-bottom: 16px;
+  }
+  
+  .card-body .task-title {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .card-body .task-tag {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-priority {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .assignee {
+    display: flex;
+    align-items: center;
+  }
+  
+  .assignee-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .assignee-name {
+    font-size: 12px;
+    color: #333;
+  }
+   */
+  @media (max-width: 768px) {
+    .board {
+      flex-direction: column;
+    }
+  
+    .board-column {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
